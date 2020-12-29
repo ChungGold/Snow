@@ -2,26 +2,113 @@ body {
     background-color: #a7c5eb;
 }
 
-div {
-    background-color: white;
+.snow {
     position: absolute;
-    height: 1rem;
-    width: 1rem;
-    border-radius: 50%;
-    margin-left: 25%;
-/*  animation-name: moveLeftRight;
+    color: white;
+    font-size: larger;
+    animation: moveLeftRight infinite alternate ease-in-out;
+}
+
+.zero {
+    margin-left: 5%;
     animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;*/
-    animation: moveLeftRight 2.5s infinite alternate ease-in-out;
+}
+
+.one {
+    margin-left: 10%;
+    animation-duration: 3s 
+}
+
+.two {
+    margin-left: 15%;
+    animation-duration: 3.5s 
+}
+
+.three {
+    margin-left: 20%;
+    animation-duration: 2.5s 
+}
+
+.four {
+    margin-left: 25%;
+    animation-duration: 3.5s 
+}
+
+.five {
+    margin-left: 30%;
+    animation-duration: 3s 
+}
+
+.six {
+    margin-left: 35%;
+    animation-duration: 3s 
+}
+
+.seven {
+    margin-left: 40%;
+    animation-duration: 3.5s 
+}
+
+.eight {
+    margin-left: 45%;
+    animation-duration: 2.5s 
+}
+
+.nine {
+    margin-left: 50%;
+    animation-duration: 2.5s;
+}
+
+.ten {
+    margin-left: 55%;
+    animation-duration: 3s 
+}
+
+.eleven {
+    margin-left: 60%;
+    animation-duration: 3.5s 
+}
+
+.twelve {
+    margin-left: 65%;
+    animation-duration: 2.5s 
+}
+
+.thirteen {
+    margin-left: 70%;
+    animation-duration: 3.5s 
+}
+
+.fourteen {
+    margin-left: 75%;
+    animation-duration: 3s 
+}
+
+.fifteen {
+    margin-left: 80%;
+    animation-duration: 3s 
+}
+
+.sixteen {
+    margin-left: 85%;
+    animation-duration: 3.5s 
+}
+
+.seventeen {
+    margin-left: 90%;
+    animation-duration: 3s 
+}
+
+.eightteen {
+    margin-left: 95%;
+    animation-duration: 3.5s 
 }
 
 @keyframes moveLeftRight{
     0%{
-        transform: translateX(-1rem);
+        transform: translateX(-2rem);
     }
     100%{
-        transform: translateX(1rem);
+        transform: translateX(2rem);
     }
 }
